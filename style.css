@@ -1,0 +1,78 @@
+header {
+    background-color: rgb(255, 255, 255, 0.025);
+    margin-top: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+}
+
+body {
+    background-position: center;
+    padding: 100px;
+    background-color: black;
+    background-image: url('images/background.png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+h4 {
+    color: white;
+    font-weight: bold;
+}
+h6 {
+    color: white;
+    font-style: bold;
+}
+
+#links {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#links a {
+    color: rgb(255, 187, 0);
+}
+
+#header {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+#main-content {
+    padding: 25px;
+    position:absolute;
+    top: 200px;
+    left:0px;
+    right:0px;
+    bottom:80px;
+    overflow-y:scroll;
+    background-color: rgb(255, 255, 255, 0.1);
+    text-align: center;
+    border: 0.5px solid rgba(255, 255, 255, 0.582);
+    font-family: Helvetica;
+}
+
+#main-content img {
+    border: 0.5px solid white;
+}
+
+#footer {
+    margin-top: 20px;
+    position: fixed;
+    bottom: 1px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.025);
+    text-align: center;
+    font-family: Helvetica;
+}
